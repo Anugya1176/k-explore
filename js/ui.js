@@ -136,7 +136,7 @@
       '<nav aria-label="Footer"><h2 class="footer-title">Explore</h2><ul><li><a href="index.html">Home</a></li><li><a href="events.html">All events</a></li><li><a href="register.html">Register</a></li><li><a href="my-registrations.html">My registrations</a></li></ul></nav>' +
       '<nav aria-label="Categories"><h2 class="footer-title">Categories</h2><ul>' +
       KX.CATEGORIES.slice(0, 5).map(function (c) { return '<li><a href="events.html?category=' + encodeURIComponent(c.id) + '">' + c.id + '</a></li>'; }).join('') + '</ul></nav>' +
-      '<div><h2 class="footer-title">Contact</h2><address><p><a href="mailto:hello@kexplore.example">hello@kexplore.example</a></p><p><a href="tel:+910000000000">+91 00000 00000</a></p><p>K Explore Events Office,<br>University Campus, India</p></address></div>' +
+      '<div><h2 class="footer-title">Contact</h2><address><p><a href="mailto:anugyajha2006@gmail.com">anugyajha2006@gmail.com</a></p><p><a href="tel:+919360836747">+91 9360836747</a></p><p>K Explore Events Office,KIIT University, India</p></address></div>' +
       '</div><div class="container footer-bottom"><p>© ' + new Date().getFullYear() + ' K Explore. A college web-design project.</p>' +
       '<p>Demo site: registrations are saved only in your browser.</p></div>';
   }
