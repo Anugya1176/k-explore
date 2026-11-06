@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Events | K Explore</title>
+  <meta name="description" content="Search and filter every upcoming event on K Explore by name, venue or category.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/theme.js"></script>
+</head>
+<body data-page="events">
+<header id="site-header"></header>
+<main id="main">
+  <section class="page-head"><div class="container"><p class="eyebrow">Event listing</p><h1>Explore all events</h1><p class="hero-lead">Search by name, venue or keyword, then narrow things down by category.</p></div></section>
+  <section class="section tight" aria-label="Search and filter events">
+    <div class="container">
+      <form id="search-form" class="search-bar" role="search">
+        <label for="search" class="sr-only">Search events</label>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="search" type="search" placeholder="Search events, venues, keywords…" autocomplete="off">
+        <button class="btn btn-sm" type="button" data-reset>Reset filters</button>
+      </form>
+      <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+      <p class="result-status" id="result-status" role="status" aria-live="polite"></p>
+      <div class="grid" id="events-grid"></div>
+      <div class="empty" id="empty-state" hidden>
+        <div class="empty-icon" aria-hidden="true">🔍</div>
+        <h2>No events match your search</h2>
+        <p>Try a different keyword or category, or clear your filters to see everything.</p>
+        <button class="btn btn-primary" type="button" data-reset>Reset filters</button>
+      </div>
+    </div>
+  </section>
+</main>
+<footer id="site-footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/events.js"></script>
+</body>
+</html>
