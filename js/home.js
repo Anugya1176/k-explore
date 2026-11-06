@@ -11,7 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
     return '<a class="cat-tile reveal" href="events.html?category=' + encodeURIComponent(c.id) + '"><span class="cat-icon" aria-hidden="true">' + c.icon + '</span>' +
       '<span class="cat-name">' + c.id + '</span><span class="cat-blurb">' + c.blurb + '</span><span class="cat-count">' + n + (n === 1 ? ' event' : ' events') + '</span></a>';
   }).join('');
-
+  
+  KX.reveal();
+  
   document.getElementById('stat-events').textContent = KX.EVENTS.length;
   document.getElementById('stat-cats').textContent = KX.CATEGORIES.length;
 
