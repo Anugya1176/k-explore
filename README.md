@@ -3,8 +3,8 @@
 K Explore is a responsive event discovery and registration website built with **HTML5, CSS3 and vanilla JavaScript**. Visitors can explore upcoming events, search and filter them, read full event details, watch live countdowns and register for the events they want. No build step and no dependencies.
 
 > **Project type:** College web-designing project (front-end only).
-> **Live demo:** _add your deployed URL here after deployment_
-> **Repository:** _add your GitHub URL here_
+> > **Live demo:** https://anugya1176.github.io/k-explore/
+> **Repository:** https://github.com/Anugya1176/k-explore
 
 ## Screenshots
 
